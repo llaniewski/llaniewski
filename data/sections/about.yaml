@@ -21,13 +21,13 @@ summary: 'I am a passionate software engineer with x years of working experience
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "example@gmail.com"
+#- name: Email
+#  icon: "fas fa-envelope"
+#  url: "example@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/llaniewski"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
@@ -37,12 +37,12 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "#"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
+#- name: Twitter
+#  icon: "fab fa-twitter"
+#  url: "#"
 
 - name: Facebook
-  icon: "fab fa-facebook"
+  icon: "fab fa-facebook-messenger"
   url: "#"
 
 # your soft skills
