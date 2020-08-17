@@ -6,7 +6,7 @@ section:
   showOnNavbar: true
 
 # your designation
-designation: Software Engineer
+designation: Researcher
 # your company information
 company:
   name: Example Co.
@@ -16,7 +16,7 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: '[TODO] I am a researcher'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -27,19 +27,19 @@ socialLinks:
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/llaniewski"
+  url: "https://www.github.com/llaniewski/"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://stackoverflow.com/users/1186143/"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/%C5%82ukasz-%C5%82aniewski-wo%C5%82%C5%82k-53398523/"
 
-#- name: Twitter
-#  icon: "fab fa-twitter"
-#  url: "#"
+- name: Researchgate
+  icon: "fab fa-researchgate"
+  url: "https://www.researchgate.net/profile/Lukasz_Laniewski-Wollk"
 
 - name: Facebook
   icon: "fab fa-facebook-messenger"
