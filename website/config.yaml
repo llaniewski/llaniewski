@@ -32,9 +32,8 @@ params:
 
   # background image of the landing page
 #  background: images/20130706_165855.jpg
-#  background: images/20151209_170008.jpg # fajne
-  background: images/20170710_173602_.jpg
-  background_position: "center"
+  background: images/20151209_170008.jpg # fajne
+#  background: images/20170710_173602_.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
