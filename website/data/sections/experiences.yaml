@@ -10,22 +10,19 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: University of Queensland
+    url: "https://uq.edu.au/"
+    location: Brisbane, Australia
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: TODO
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Postdoc
+    start: Sep 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
+    - TODO
   - designation: Junior Software Engineer
     start: Nov 2017
     end: Oct 2019
@@ -35,29 +32,34 @@ experiences:
     - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.preexample.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Warsaw University of Technology
+    url: "https://meil.pw.edu.pl/"
+    location: Warsaw, Poland
+    overview: TODO
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Adjunkt - Assistant Professor
+    start: January 2018
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - TODO
+  - designation: Asystent - Researcher
+    start: Jan 2018
+    end: Apr 2014
+    responsibilities:
+    - TODO
+  - designation: Doktorant - PhD Candidate
+    start: Sep 2009
+    end: Apr 2014
+    responsibilities:
+    - TODO
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: University of Warsaw
+    url: "https://mimuw.edu.pl"
+    location: Warsaw, Poland
+    overview: TODO
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Student
+    start: Sep 2004
+    end: Jun 2009
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - TODO

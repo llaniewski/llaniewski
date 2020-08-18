@@ -64,9 +64,9 @@ softSkills:
 - name: Fast Learner
   percentage: 85
   color: sky
-- name: Problem Solving
-  percentage: 85
-  color: orange
+#- name: Problem Solving
+#  percentage: 85
+#  color: orange
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75
