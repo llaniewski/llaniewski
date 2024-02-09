@@ -2,4 +2,4 @@ I'm a researcher and a programmer in the field of Computational Fluid Dynamics (
 
 See my main project: [TCLB](https://github.com/CFD-GO/TCLB) - Lattice Boltzmann Method solver for multi-GPU architectures.
 
-![](https://github-readme-stats.vercel.app/api/?username=llaniewski&disable_animations=true&include_all_commits=true&show_icons=true&hide_title=true)
+[![Line goes up!](https://api.star-history.com/svg?repos=CFD-GO/TCLB&type=Date)](https://star-history.com/#CFD-GO/TCLB&Date)
