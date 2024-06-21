@@ -1,0 +1,175 @@
+baseURL: 'https://lukasz.laniewski.wollk.pl/'
+languageCode: en
+title: Lukasz Laniewski-Wollk
+theme: hugo-devresume-theme
+googleAnalytics: UA-XXXXXXX-Y
+params:
+  author: CowboySmall
+  description: DevResume - Bootstrap 4 Resume/CV Template For Software Developers
+  primaryColor: '#54B689'
+  textPrimaryColor: '#292929'
+  profile:
+    enable: true
+    name: Łukasz Łaniewski-Wołłk
+    tagline: Research
+    avatar: llaniewski_sq.png
+  contact:
+    enable: true
+    location: Brisbane, Australia
+    list:
+#      - icon: fas fa-phone-square
+#        url: 'tel:#'
+#        text: 0123 4567 890
+      - icon: fas fa-envelope-square
+        url: 'mailto:lukasz@laniewski.wollk.pl'
+        text: lukasz@laniewski.wollk.pl
+      - icon: fas fa-globe
+        url: 'https://lukasz.laniewski.wollk.pl/'
+        text: lukasz.laniewski.wollk.pl
+      - icon: fab fa-github-square
+        url: 'https://github.com/llaniewski/'
+        text: github.com/llaniewski
+  skills:
+    enable: true
+    list:
+      - title: Programming
+        items:
+          - details: C/C++
+          - details: R
+          - details: bash
+          - details: HPC (slurm/PBS)
+          - details: Python/NumPy/Pandas
+          - details: SQL
+      - title: Professional
+        items:
+          - details: Effective communication
+          - details: Team player
+          - details: Strong problem solver
+          - details: Good time management
+  education:
+    enable: true
+    list:
+      - degree: PhD in Mechanical Engineering
+        university: Warsaw University of Technology
+        dates: 2017
+      - degree: MSc in Mathematics
+        university: University of Warsaw
+        dates: 2005 - 2009
+  awards:
+    enable: true
+    list:
+      - name: nVidia Award for best presentation
+        body: ICMMES conference
+        date: '2012'
+      - name: TODO
+        body: Oracle Aenean
+        date: '2017'
+  languages:
+    enable: true
+    list:
+      - name: English
+        level: Fluent
+      - name: Polish
+        level: Native
+  interests:
+    enable: true
+    list:
+      - name: Hiking
+      - name: Crafts
+  summary:
+    enable: true
+    text: >-
+      Summarise your career here. Donec quam felis, ultricies nec, pellentesque
+      eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+      commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+      ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et
+      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
+      leo. Sed fringilla mauris sit amet nibh.
+  experience:
+    enable: true
+    list:
+      - title: Postdoctoral Research Fellow
+        dates: 2019 - Present
+        company: University of Queensland
+        details: >-
+          Role description goes here ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor
+          sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+          dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+          parturient montes, nascetur ridiculus mus. Donec quam felis.
+        items:
+          - details: 'Lorem ipsum dolor sit amet, consectetuer.'
+          - details: Aenean commodo ligula eget dolor.
+          - details: Etiam ultricies nisi vel augue.
+      - title: Adjunkt (Lecturer)
+        dates: 2018 - Present
+        company: Warsaw University of Technology
+        details: >-
+          Role description goes here ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem. Donec pede justo, fringilla vel.
+        items:
+          - details: 'Lorem ipsum dolor sit amet, consectetuer.'
+          - details: Aenean commodo ligula eget dolor.
+      - title: Asystent (Lecturer)
+        dates: 2014 - 2018
+        company: Warsaw University of Technology
+        details: >-
+          Role description goes here ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus.
+      - title: PhD Candidate
+        dates: 2009 - 2014
+        company: Warsaw University of Technology
+        details: >-
+          Role description goes here ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus.
+  projects:
+    enable: true
+    list:
+      - title: Project Lorem Ipsum
+        meta: Open Source
+        tagline: >-
+          You can use this section for your side projects. Lorem ipsum dolor sit
+          amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus.
+      - title: Project Sed Fringilla
+        meta: Open Source
+        tagline: >-
+          You can use this section for your side projects. Cras dapibus. Vivamus
+          elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+          ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+      - title: Project Praesent
+        meta: Open Source
+        tagline: >-
+          You can use this section for your side projects. Cras dapibus. Vivamus
+          elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+          ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+  information:
+    enable: true
+    list:
+      - title: Papers
+        items:
+          - details: 2018 · Lorem Ipsum
+          - details: 2016 · Sed Fringilla
+      - title: Interests
+        details: 'Climbing, Snowboarding, Photography, Travelling'
+  social:
+    enable: true
+    list:
+      - icon: fab fa-github-square
+        url: //github.com/llaniewski
+        title: llaniewski
+      - icon: fab fa-linkedin
+        url: //www.linkedin.com/in/l-laniewski-wollk/
+        title: l-laniewski-wollk
