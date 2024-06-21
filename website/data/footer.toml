@@ -6,16 +6,16 @@
 
 [[social]]
   type = "github"
-  id   = "johndoe"
+  id   = "llaniewski"
 
 [[social]]
   type = "facebook"
-  id   = "johndoe"
+  id   = "1816546502"
 
-[[social]]
-  type = "telegram"
-  id   = "johndoe"
+#[[social]]
+#  type = "telegram"
+#  id   = "johndoe"
 
-[[social]]
-  type = "whatsapp"
-  id   = "+1234567890"
+#[[social]]
+#  type = "whatsapp"
+#  id   = "+1234567890"
