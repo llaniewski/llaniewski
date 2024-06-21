@@ -1,7 +1,7 @@
 baseURL: https://lukasz.laniewski.wollk.pl/
 languageCode: en-us
 title: "Łukasz Łaniewski-Wołłk"
-theme: "toha"
+theme: "hugo-porto"
 
 # Allow raw html in markdown file
 markup:
