@@ -1,3 +1,6 @@
 [submodule "themes/toha"]
 	path = website/themes/toha
 	url = https://github.com/llaniewski/toha.git
+[submodule "website/themes/hugo-porto"]
+	path = website/themes/hugo-porto
+	url = https://github.com/hugo-porto/theme.git
