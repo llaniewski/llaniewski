@@ -1,0 +1,33 @@
+theme: lynx
+title: Łukasz Łaniewski-Wołłk
+enableEmoji: true
+disableKinds:
+  - taxonomy
+  - term
+params:
+  author:
+    name: Łukasz Łaniewski-Wołłk
+    headline: Researcher
+    image: assets/images/llaniewski_sq.png
+    links:
+      - google:
+          href: "https://scholar.google.com/citations?user=Scxug-EAAAAJ&hl=pl"
+          text: "Google Scholar"
+      - github: 'https://github.com/llaniewski/'
+      - linkedin: 'https://www.linkedin.com/in/l-laniewski-wollk/'
+      - link:
+          href: 'cv/' 
+          text: Resume
+          icon: file-invoice-solid
+      - github:
+          href: 'https://github.com/CFD-GO/TCLB'
+          text: TCLB
+      - youtube:
+          href: 'https://www.youtube.com/@tclb'
+          text: TCLB
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true

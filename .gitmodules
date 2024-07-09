@@ -1,3 +1,6 @@
 [submodule "website/themes/hugo-devresume-theme"]
 	path = website/themes/hugo-devresume-theme
 	url = https://github.com/llaniewski/hugo-devresume-theme
+[submodule "website/themes/lynx"]
+	path = website/themes/lynx
+	url = https://github.com/jpanther/lynx.git

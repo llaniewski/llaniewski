@@ -1,4 +1,4 @@
-baseURL: '/'
+baseURL: '/cv/'
 languageCode: en
 title: Lukasz Laniewski-Wollk
 theme: hugo-devresume-theme
