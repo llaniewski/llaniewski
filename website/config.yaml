@@ -1,25 +1,22 @@
-baseURL: 'https://lukasz.laniewski.wollk.pl/'
+baseURL: '/'
 languageCode: en
 title: Lukasz Laniewski-Wollk
 theme: hugo-devresume-theme
 googleAnalytics: UA-XXXXXXX-Y
 params:
-  author: CowboySmall
-  description: DevResume - Bootstrap 4 Resume/CV Template For Software Developers
+  author: llaniewski
+  description: CV of Lukasz Laniewski-Wollk
   primaryColor: '#54B689'
   textPrimaryColor: '#292929'
   profile:
     enable: true
     name: Łukasz Łaniewski-Wołłk
-    tagline: Research
+    tagline: Researcher in numerical methods
     avatar: llaniewski_sq.png
   contact:
     enable: true
     location: Brisbane, Australia
     list:
-#      - icon: fas fa-phone-square
-#        url: 'tel:#'
-#        text: 0123 4567 890
       - icon: fas fa-envelope-square
         url: 'mailto:lukasz@laniewski.wollk.pl'
         text: lukasz@laniewski.wollk.pl
@@ -32,20 +29,23 @@ params:
   skills:
     enable: true
     list:
-      - title: Programming
+      - title: Primary
         items:
-          - details: C/C++
+          - details: C / C++
+          - details: "GPU: CUDA, HIP"
           - details: R
           - details: bash
-          - details: HPC (slurm/PBS)
-          - details: Python/NumPy/Pandas
-          - details: SQL
-      - title: Professional
+          - details: "MPI"
+          - details: "HPC: slurm, PBS"
+      - title: Secondary
         items:
-          - details: Effective communication
-          - details: Team player
-          - details: Strong problem solver
-          - details: Good time management
+          - details: "JavaScript, TypeScript"
+          - details: "OpenMP"
+          - details: "Python: NumPy, Pandas"
+          - details: SQL
+      - title: Also did stuff in
+        items:
+          - details: PHP
   education:
     enable: true
     list:
@@ -54,16 +54,13 @@ params:
         dates: 2017
       - degree: MSc in Mathematics
         university: University of Warsaw
-        dates: 2005 - 2009
+        dates: 2009
   awards:
     enable: true
     list:
       - name: nVidia Award for best presentation
         body: ICMMES conference
         date: '2012'
-      - name: TODO
-        body: Oracle Aenean
-        date: '2017'
   languages:
     enable: true
     list:
@@ -71,79 +68,51 @@ params:
         level: Fluent
       - name: Polish
         level: Native
+      - name: French
+        level: Basic
   interests:
     enable: true
     list:
       - name: Hiking
-      - name: Crafts
+      - name: Electronics
   summary:
     enable: true
     text: >-
-      Summarise your career here. Donec quam felis, ultricies nec, pellentesque
-      eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-      commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-      ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
-      leo. Sed fringilla mauris sit amet nibh.
+      Mathematician and long time programmer, specialising in High Performance Computing (HPC) in the field of numerical methods for Computer Fluid Dynamics (CFD),
+      Optimisation and Uncertainty Quantification. Highly skilled in a wide range of numerical methods, including Finite Element, Finite Volume and Lattice Botlzmann Method,
+      as well as in paralellisation technologies ranging from MPI, OpenMP to GPU acceleration with the use of CUDA/HIP. With a long and rich experiance in the field,
+      participating and leading in both academic and industrial-driven projects.
   experience:
     enable: true
     list:
-      - title: Postdoctoral Research Fellow
+      - title: "Postdoctoral Research Fellow"
         dates: 2019 - Present
         company: University of Queensland
         details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor
-          sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-          dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Donec quam felis.
+          Research and development of numerical codes in the field of Computational Fluid Dynamics, mostly applied in Coal Seam Gas industry.
         items:
-          - details: 'Lorem ipsum dolor sit amet, consectetuer.'
-          - details: Aenean commodo ligula eget dolor.
-          - details: Etiam ultricies nisi vel augue.
-      - title: Adjunkt (Lecturer)
-        dates: 2018 - Present
+          - details: Development of coupling of TCLB and LAMMPS/LIGGGHTS
+          - details: Research in the field of particle-laden flows
+      - title: "Adjunkt"
+        dates: 2009 - Present
         company: Warsaw University of Technology
         details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem. Donec pede justo, fringilla vel.
+          Research and development of numerical codes in the field of Computational Fluid Dynamics, Optimisation and Uncertainty quantification,
+          mostly applied in the Car and Aero-space industry.
         items:
-          - details: 'Lorem ipsum dolor sit amet, consectetuer.'
-          - details: Aenean commodo ligula eget dolor.
-      - title: Asystent (Lecturer)
-        dates: 2014 - 2018
-        company: Warsaw University of Technology
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus.
-      - title: PhD Candidate
-        dates: 2009 - 2014
-        company: Warsaw University of Technology
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus.
+          - details: Development of a LBM solver TCLB
+          - details: Research in the field of CFD and Optimisation
+          - details: Supervision of PhD and MSc students
+          - details: Teaching
   projects:
     enable: true
     list:
-      - title: Project Lorem Ipsum
+      - title: "TCLB"
         meta: Open Source
         tagline: >-
-          You can use this section for your side projects. Lorem ipsum dolor sit
-          amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus.
-      - title: Project Sed Fringilla
+          Open-source Computetional Fluid Dynamics solver, based on Lattice Boltzmann Method. Designed
+          to run on GPUs (CUDA/HIP) or CPUs, with distributed parallelism using MPI.
+      - title: 
         meta: Open Source
         tagline: >-
           You can use this section for your side projects. Cras dapibus. Vivamus
@@ -160,10 +129,19 @@ params:
     list:
       - title: Papers
         items:
-          - details: 2018 · Lorem Ipsum
-          - details: 2016 · Sed Fringilla
-      - title: Interests
-        details: 'Climbing, Snowboarding, Photography, Travelling'
+          - details: |
+              *Adjoint Lattice Boltzmann for Topology Optimization on multi-GPU architecture*,
+              Ł. Łaniewski-Wołłk, J. Rokicki, Computers & Mathematics with Applications 71 (3), 833-848, 2016
+          - details: |
+              *Pressure drop in flow across ceramic foams—A numerical and experimental study*,
+              T. Wejrzanowski W. Regulski, J. Szumbarski, Ł. Łaniewski-Wołłk, K. Gumowski, J. Skibiński, M. Wichrowski,
+              Chemical Engineering Science, 2015
+          - details: |
+              [other...](https://scholar.google.com/citations?user=Scxug-EAAAAJ)
+      - title: Books
+        items:
+          - details: Uncertainty Management for Robust Industrial Design in Aeronautics
+            meta: Editor
   social:
     enable: true
     list:
