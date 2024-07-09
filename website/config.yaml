@@ -1,78 +1,153 @@
-baseURL: https://lukasz.laniewski.wollk.pl/
-languageCode: en-us
-title: "Łukasz Łaniewski-Wołłk"
-theme: "toha"
-
-# Allow raw html in markdown file
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  tableOfContents:
-    startLevel: 2
-    endLevel: 6
-    ordered: false
-
-# Enable Google Analytics
-googleAnalytics: UA-XXXXXXXXX-X
-
-# Enable Disqus forum
-disqusShortname: does-not-exist
-
-# Enable global emoji support
-enableEmoji: true
-
-# Custom parameters
+baseURL: '/'
+languageCode: en
+title: Lukasz Laniewski-Wollk
+theme: hugo-devresume-theme
+googleAnalytics: UA-XXXXXXX-Y
 params:
-  # Copyright Notice
-  copyright: © 2020 Copyright.
-
-  # Meta description for your site.  This will help the search engines to find your site.
-  description: Portfolio and personal blog of Łukasz Łaniewski-Wołłk
-
-  # background image of the landing page
-#  background: images/20130706_165855.jpg
-  background: images/20151209_170008.jpg # fajne
-#  background: images/20170710_173602_.jpg
-
-  # Provide logos for your site. The inverted logo will be used in the initial
-  # transparent navbar and the main logo will be used in the non-transparent navbar.
-  # It will be default to the theme logos if not provided.
-  logo:
-    main: /assets/images/main-logo.png
-    inverted: /assets/images/inverted-logo.png
-
-  # GitHub repo URL of your site
-  gitRepo: https://github.com/llaniewski/llaniewski
-
-  # specify whether you want to write blog post or not
-  enableBlogPost: true
-
-  # specify whether you want to show Table of Contents in reading page
-  enableTOC: true
-
-  # specify the list of custom menus that you want to show in the top navbar.
-  # they will be separated by a divider from the main menus.
-  customMenus:
-  - name: TCLB
-    url: https://tclb.io/
-
-  # Provide newsletter configuration. This feature hasn't been implemented yet.
-  # Currently, you can just hide it from the footer.
-  newsletter:
+  author: llaniewski
+  description: CV of Lukasz Laniewski-Wollk
+  primaryColor: '#54B689'
+  textPrimaryColor: '#292929'
+  profile:
     enable: true
-
-  # some information about you
-  author:
-    name: "Łukasz Łaniewski-Wołłk"
-    nickname: "Łukasz"
-    image: "images/avatar.png"
-    # give your some contact information. they will be used in the footer
-    contactInfo:
-      email: ""
-      phone: ""
-    # a summary of what you do
-    summary:
-    - Developer
-    - Researcher
-
+    name: Łukasz Łaniewski-Wołłk
+    tagline: Researcher in numerical methods
+    avatar: llaniewski_sq.png
+  contact:
+    enable: true
+    location: Brisbane, Australia
+    list:
+      - icon: fas fa-envelope-square
+        url: 'mailto:lukasz@laniewski.wollk.pl'
+        text: lukasz@laniewski.wollk.pl
+      - icon: fas fa-globe
+        url: 'https://lukasz.laniewski.wollk.pl/'
+        text: lukasz.laniewski.wollk.pl
+      - icon: fab fa-github-square
+        url: 'https://github.com/llaniewski/'
+        text: github.com/llaniewski
+  skills:
+    enable: true
+    list:
+      - title: Primary
+        items:
+          - details: C / C++
+          - details: "GPU: CUDA, HIP"
+          - details: R
+          - details: bash
+          - details: "MPI"
+          - details: "HPC: slurm, PBS"
+      - title: Secondary
+        items:
+          - details: "JavaScript, TypeScript"
+          - details: "OpenMP"
+          - details: "Python: NumPy, Pandas"
+          - details: SQL
+      - title: Also did stuff in
+        items:
+          - details: PHP
+  education:
+    enable: true
+    list:
+      - degree: PhD in Mechanical Engineering
+        university: Warsaw University of Technology
+        dates: 2017
+      - degree: MSc in Mathematics
+        university: University of Warsaw
+        dates: 2009
+  awards:
+    enable: true
+    list:
+      - name: nVidia Award for best presentation
+        body: ICMMES conference
+        date: '2012'
+  languages:
+    enable: true
+    list:
+      - name: English
+        level: Fluent
+      - name: Polish
+        level: Native
+      - name: French
+        level: Basic
+  interests:
+    enable: true
+    list:
+      - name: Hiking
+      - name: Electronics
+  summary:
+    enable: true
+    text: >-
+      Mathematician and long time programmer, specialising in High Performance Computing (HPC) in the field of numerical methods for Computer Fluid Dynamics (CFD),
+      Optimisation and Uncertainty Quantification. Highly skilled in a wide range of numerical methods, including Finite Element, Finite Volume and Lattice Botlzmann Method,
+      as well as in paralellisation technologies ranging from MPI, OpenMP to GPU acceleration with the use of CUDA/HIP. With a long and rich experiance in the field,
+      participating and leading in both academic and industrial-driven projects.
+  experience:
+    enable: true
+    list:
+      - title: "Postdoctoral Research Fellow"
+        dates: 2019 - Present
+        company: University of Queensland
+        details: >-
+          Research and development of numerical codes in the field of Computational Fluid Dynamics, mostly applied in Coal Seam Gas industry.
+        items:
+          - details: Development of coupling of TCLB and LAMMPS/LIGGGHTS
+          - details: Research in the field of particle-laden flows
+      - title: "Adjunkt"
+        dates: 2009 - Present
+        company: Warsaw University of Technology
+        details: >-
+          Research and development of numerical codes in the field of Computational Fluid Dynamics, Optimisation and Uncertainty quantification,
+          mostly applied in the Car and Aero-space industry.
+        items:
+          - details: Development of a LBM solver TCLB
+          - details: Research in the field of CFD and Optimisation
+          - details: Supervision of PhD and MSc students
+          - details: Teaching
+  projects:
+    enable: true
+    list:
+      - title: "TCLB"
+        meta: Open Source
+        tagline: >-
+          Open-source Computetional Fluid Dynamics solver, based on Lattice Boltzmann Method. Designed
+          to run on GPUs (CUDA/HIP) or CPUs, with distributed parallelism using MPI.
+      - title: 
+        meta: Open Source
+        tagline: >-
+          You can use this section for your side projects. Cras dapibus. Vivamus
+          elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+          ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+      - title: Project Praesent
+        meta: Open Source
+        tagline: >-
+          You can use this section for your side projects. Cras dapibus. Vivamus
+          elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+          ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+  information:
+    enable: true
+    list:
+      - title: Papers
+        items:
+          - details: |
+              *Adjoint Lattice Boltzmann for Topology Optimization on multi-GPU architecture*,
+              Ł. Łaniewski-Wołłk, J. Rokicki, Computers & Mathematics with Applications 71 (3), 833-848, 2016
+          - details: |
+              *Pressure drop in flow across ceramic foams—A numerical and experimental study*,
+              T. Wejrzanowski W. Regulski, J. Szumbarski, Ł. Łaniewski-Wołłk, K. Gumowski, J. Skibiński, M. Wichrowski,
+              Chemical Engineering Science, 2015
+          - details: |
+              [other...](https://scholar.google.com/citations?user=Scxug-EAAAAJ)
+      - title: Books
+        items:
+          - details: Uncertainty Management for Robust Industrial Design in Aeronautics
+            meta: Editor
+  social:
+    enable: true
+    list:
+      - icon: fab fa-github-square
+        url: //github.com/llaniewski
+        title: llaniewski
+      - icon: fab fa-linkedin
+        url: //www.linkedin.com/in/l-laniewski-wollk/
+        title: l-laniewski-wollk
